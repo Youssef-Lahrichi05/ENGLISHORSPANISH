@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+button {
+    width: 300px;
+    height: 200px;
+    margin-right: 50px;
+    font-size: 30px;
+    color: white;
+}
+button:hover {
+    cursor: pointer;
+}
+button:active {
+    opacity: 0.7;
+}
+#spain {
+    background-image: url('image/spain.png');
+    background-size: cover;
+    border:none;
+    background-position: center;
+}
+#england {
+    background-image: url('image/uk.png');
+    background-size: cover;
+    border: none;
+    background-position: center;
+}
